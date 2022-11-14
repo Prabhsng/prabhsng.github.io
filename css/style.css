@@ -753,6 +753,7 @@ margin-top: 5px;
     margin-right: 5%;
     margin-top: 55px;
     display: none;
+    transition: all .2s ease-in-out;
 }
 
 .section-instafeed .shot:nth-child(3n) {
@@ -766,6 +767,14 @@ margin-top: 5px;
 .section-instafeed .shot:nth-child(5),
 .section-instafeed .shot:nth-child(6){
     display: block;
+}
+
+.section-instafeed .shot:hover {
+    transform: rotate(-1deg);
+}
+
+.section-instafeed .shot:hover .title{
+    text-decoration: underline;
 }
 
 .section-instafeed .title {
@@ -831,6 +840,15 @@ margin-top: 5px;
     float: left;
     margin-right: 5%;
     margin-top: 55px;
+    transition: all .2s ease-in-out;
+}
+
+.section-behance .shot:hover {
+    transform: rotate(-1deg);
+}
+
+.section-behance .shot:hover .title{
+    text-decoration: underline;
 }
 
 .section-behance .shot:nth-child(3n) {
