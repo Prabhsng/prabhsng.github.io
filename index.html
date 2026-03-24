@@ -63,7 +63,8 @@
           <div class="span4 left-col">
             <div class="left-text-container">
               <h4>BIOGRAPHY</h4>
-              <p>I am a creative UI/UX Designer with 9+ years of expertise in the field of design & development since 2015 and worked in different domains like Healthcare, B2B, AI, Real-Estate, Non-Profit, Education, Web3, Banking etc. I love designing interfaces that provide an accessible and enjoyable user experience.</p>
+              <p>I am a creative UI/UX Designer <span class="experience"></span>
+<span class="experience"></span> with 9+ years of expertise in the field of design & development since 2015 and worked in different domains like Healthcare, B2B, AI, Real-Estate, Non-Profit, Education, Web3, Banking etc. I love designing interfaces that provide an accessible and enjoyable user experience.</p>
             </div>
             <div class="left-text-container">
               <h4>SKILLS</h4>
@@ -371,6 +372,31 @@
 
   <script src="js/JQuery.js" type="text/javascript" charset="utf-8"></script>
 
+
+
+ <!-- Experience calculate -->
+  <script>
+  function calculateExperience() {
+    const startDate = new Date(2015, 8);
+    const currentDate = new Date();
+
+    let years = currentDate.getFullYear() - startDate.getFullYear();
+
+    if (
+      currentDate.getMonth() < startDate.getMonth() ||
+      (currentDate.getMonth() === startDate.getMonth() && currentDate.getDate() < 1)
+    ) {
+      years--;
+    }
+
+    const elements = document.querySelectorAll(".experience");
+    elements.forEach(el => {
+      el.innerText = years + "+";
+    });
+  }
+
+  calculateExperience();
+</script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142705721-1"></script>
