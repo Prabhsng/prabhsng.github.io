@@ -568,14 +568,15 @@ body .header .nav-button:hover {
     margin-top: 0;
 }
 
-.primary-banner .left-col p{
-margin-top: 35px;
+.primary-banner .left-col li{
     font-size: 18px;
     line-height: 28px;
     color: #8e8e8e;
     letter-spacing: 1px;
     font-weight: 600;
     color: #000;
+    margin-left: 26px;
+    margin-bottom: 4px;
 }
 
 
