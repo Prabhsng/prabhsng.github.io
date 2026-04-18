@@ -561,7 +561,7 @@ body .header .nav-button:hover {
 
 
 .primary-banner .left-text-container{
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .primary-banner .left-text-container:first-child {
@@ -569,7 +569,7 @@ body .header .nav-button:hover {
 }
 
 .primary-banner .left-col p {
-    margin-top: 35px;
+    margin-top: 16px;
     font-size: 16px;
     line-height: 24px;
     color: #8e8e8e;
@@ -595,7 +595,7 @@ body .header .nav-button:hover {
 
 
 .primary-banner .right-text-container{
-    margin-top: 70px;
+    margin-top: 54px;
 }
 
 .primary-banner .right-text-container:first-child {
