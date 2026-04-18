@@ -606,6 +606,10 @@ body .header .nav-button:hover {
     margin-top: 35px;
 }
 
+.primary-banner .right-text-container a {
+    color: #0087ff;
+    text-decoration: underline;
+}
 
 
 
