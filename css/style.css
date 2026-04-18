@@ -570,17 +570,21 @@ body .header .nav-button:hover {
 
 .primary-banner .left-col p {
     margin-top: 35px;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
     color: #8e8e8e;
     letter-spacing: 1px;
     font-weight: 600;
     color: #000;
 }
 
+.primary-banner .left-col ul{
+    margin-top:16px;
+}
+
 .primary-banner .left-col li{
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
     color: #8e8e8e;
     letter-spacing: 1px;
     font-weight: 600;
