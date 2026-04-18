@@ -612,6 +612,27 @@ body .header .nav-button:hover {
 }
 
 
+@media (min-width: 1320px) {
+
+.primary-banner .right-col {
+    text-align: right;
+    width: 18%;
+}
+
+.primary-banner .center-col {
+    text-align: center;
+    padding: 0 8%;
+    width: 47%;
+}
+
+.primary-banner .left-col {
+    width: 31%;
+}
+    
+    
+    
+
+}
 
 
 
